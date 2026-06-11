@@ -1,0 +1,29 @@
+# Models and checkpoints
+sia_model/
+sia_model_test/
+*.joblib
+
+# Datasets and processed artifacts
+train_processed.csv
+eval_processed.csv
+
+# Cache and python files
+__pycache__/
+*.pyc
+
+# Local predictions/outputs
+test_predictions.csv
+test_dossiers.json
+predictions.csv
+dossiers.json
+*.log
+
+# Scratch files
+scratch_*.py
+compare_labels.py
+debug_pipeline.py
+train_urgent_classifier.py
+
+# System files
+.DS_Store
+Thumbs.db
